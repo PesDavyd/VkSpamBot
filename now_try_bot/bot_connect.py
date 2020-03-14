@@ -8,9 +8,6 @@ from vk_api.longpoll import VkLongPoll
 #     '0740fac27ff8a970964df25d0888295c6773ee48eb86ce9d23d4229fc8e86e8939b3fc4754f7b51d09c7c'
 # ]
 
-# accaunt_list = [
-#     ['89998403102', '79689218149Nn']
-# ]
 
 
 
