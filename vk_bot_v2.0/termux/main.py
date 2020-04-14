@@ -61,5 +61,7 @@ while command != '--exit':
     if command == commands[2]:
         clear(25)
 
+    if command not in commands:
+        print('\n>>   Write --help fo view all commands\n\n')
 
 clear(25)
