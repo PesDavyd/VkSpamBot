@@ -18,9 +18,9 @@ class Attack(vk_api.VkApi):
     def attck(self, text, id, count):
         self.connect = vk_api.VkApi(token=self.token)
 
-        print("""============================\n
-\t\t!!Attack started!!!\n\t\t
-============================""")
+        print("""=======================================\n
+\t  !!Attack started!!!\n
+=======================================""")
 
         while self.i < count:
             self.write_msg(self.i, text, id)
@@ -28,15 +28,15 @@ class Attack(vk_api.VkApi):
             
             print("""
 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n           
-================================
+=======================================
 ||                   ||          
 ||  text of message  || """ + str(text) + """ 
 ||                   ||          
-================================
+=======================================
 ||                   ||          
 || writed messages   ||  """ + str(self.i) +  """ / """ + str(count) + """
 ||                   ||          
-================================
+=======================================
 \n\n\n\n
 """)
 
